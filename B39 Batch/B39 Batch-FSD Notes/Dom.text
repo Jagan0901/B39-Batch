@@ -1,0 +1,100 @@
+What is DOM=> document object model
+writing all the codes in js file along with html tags.
+it has some inbuilt properties.
+
+how to create elements dynamically?
+
+createelement=> used to create a html element inside a body tag using DOM.
+
+Setattributes=> to create class and id dynamically ,we use this.
+syntax=> Setattribute('attributename','selectorname')
+
+classlist=> we can create multiple classes
+syntax: .classlist.add(multiple classesnames)
+
+target dom:
+design or code => getelementbyid, getelementbyclassname, getelementbytagname
+.getelementbyid(name)
+.getelementbyclassname(name)
+.getelementbytagname(name)
+
+innertext & innerhtml
+
+text/content=> if we pass tag inside it , it will consider as text & text+tag => entire element=> it will print only the text onside the element.
+we cant inset html tags & we can insert tags
+it retrieves and sets the content in plain text & it retrieves and sets th content in html format
+
+how to put e;element inside e;ements=> 2 ways 
+
+append vs appendchild
+
+by using append , we can add multiple number of elemnts in the document
+vs
+by using appendchild, we can append only one elemnt(preferably first one) in the document
+
+we can use append, wr we can use appendchild , but cannot do viceversa.
+
+Queryselector vs queryselectorall
+
+returns the first elemtn within the document, if there is multiple elements , 
+then it returns onlt the first element.
+
+vs 
+
+it returns all the elemtns within the document.
+
+syntax=> .queryselector(attribute)
+
+mostly used for selecting classname.
+
+
+DOM day 2:
+
+window util functions
+settimeout, setinterval, alert, prompt, confirm
+
+working with events=> addeventlistener()
+
+window: it is root of DOM
+settimeout, cleartimeout
+setinterval, clearinterval
+
+callback functions: a funtion which takes one or more funtion as a paramter is called callback.
+
+settimeout=> 
+
+to make javscript async we can use settimeout.
+it will be implemented or executed after specific time.
+it will be executed only once.
+
+syntax: settimeout(functionname, delaytime)
+
+delay=> the timer(1000ms = 1 sec)
+
+we can perform some smple arhtmetic operations
+
+cleartimeout => is not compulsory to use.
+
+setinterval=> 
+
+it will perorm again and again after a certain period of time.
+once we stop the function it will not get stopped automatically.
+
+syntax: setInterval(functionname, delaytime)
+
+once we are using clearinterval it will not get stopped.
+
+alert, confirm, prompt
+
+alert()=> is a pop up msg displaed whenever w eare openong the browser
+it has only one ok button
+
+confirm=> it has 2 buttons ok and cancel which seems true or false
+
+prompt=> the user has to give the input for the prompt
+it also has 2 buttons
+
+it is always ask a questo=ion to geting insde the browser.
+the user has to answer it.
+
+how to use events in DOM=> addeventlistener(eventname, functionname)

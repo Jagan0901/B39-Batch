@@ -1,0 +1,22 @@
+#bar{
+    color: Blue;
+    font-size: large;
+
+}
+
+#container{
+    font-size: larger;
+    color :aqua;
+    
+}
+
+.row{
+    color: blueviolet;
+    font-size: medium;
+
+}
+
+#column{
+    font-size: smaller;
+    color: brown;
+}

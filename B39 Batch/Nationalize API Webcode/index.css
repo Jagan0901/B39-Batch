@@ -1,0 +1,38 @@
+.container {
+    height: 294px;
+    max-width: 720px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar{
+    height: 40px;
+    background-color: #04072c;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.heading{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    place-content: center; 
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.navbrand{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.25rem;
+    color:white;
+   
+}
